@@ -11,6 +11,10 @@
 #include <QDebug>
 #include <QByteArray>
 #include <QTextCodec>
+#include <fstream>
+#include <iostream>
+#include <user_interface.h>
+#include <admin_interface.h>
 
 namespace Ui {
 class MainWindow;

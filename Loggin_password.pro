@@ -14,9 +14,15 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    struct.cpp
+    struct.cpp \
+    user_interface.cpp \
+    admin_interface.cpp
 
 HEADERS  += mainwindow.h \
-    struct.h
+    struct.h \
+    user_interface.h \
+    admin_interface.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    user_interface.ui \
+    admin_interface.ui
