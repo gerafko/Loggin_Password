@@ -16,13 +16,22 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     struct.cpp \
     user_interface.cpp \
-    admin_interface.cpp
+    admin_interface.cpp \
+    block.cpp \
+    login_not_found.cpp \
+    wrong_password.cpp
 
 HEADERS  += mainwindow.h \
     struct.h \
     user_interface.h \
-    admin_interface.h
+    admin_interface.h \
+    block.h \
+    login_not_found.h \
+    wrong_password.h
 
 FORMS    += mainwindow.ui \
     user_interface.ui \
-    admin_interface.ui
+    admin_interface.ui \
+    block.ui \
+    login_not_found.ui \
+    wrong_password.ui
